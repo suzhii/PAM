@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableRow>
+    <android.support.design.widget.TextInputLayout
+     android:layout_width="175dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="4dp">
+     <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/fname"
+     android:inputType="textCapWords"
+     android:hint="First Name" />
+     </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="175dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lname"
+    android:inputType="textCapWords"
+    android:hint="Last Name" />
+    </android.support.design.widget.TextInputLayout>
+    </TableRow>
+
+    <android.support.design.widget.TextInputLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="4dp">
+     <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/uname"
+     android:inputType="textPersonName|textNoSuggestions"
+     android:hint="User Name" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dob"
+    android:inputType="date"
+    android:hint="Date of Birth(dd/mm/yyyy)" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/email"
+    android:inputType="textEmailAddress"
+    android:hint="E- Mail" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/pass"
+    android:inputType="textPassword"
+    android:hint="Password" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cpass"
+    android:inputType="textPassword"
+    android:hint="Confirm Password" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mob"
+    android:inputType="phone"
+    android:hint="Mobile Number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TableRow>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:id="@+id/regbutton" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RESET"
+    android:id="@+id/clearbutton" />
+    </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
